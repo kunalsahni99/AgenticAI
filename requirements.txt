@@ -1,4 +1,7 @@
 langchain
 langchain_groq
+langchain-community
 streamlit
 langgraph
+wikipedia
+arxiv

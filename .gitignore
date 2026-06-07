@@ -6,4 +6,4 @@
 __pycache__/
 *.pyc
 .python-version
-uv.lock        # optional — include this if you want reproducible installs
+uv.lock

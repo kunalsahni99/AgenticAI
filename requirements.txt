@@ -5,3 +5,6 @@ streamlit
 langgraph
 wikipedia
 arxiv
+pypdf
+pymupdf
+tqdm

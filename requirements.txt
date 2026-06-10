@@ -1,6 +1,8 @@
 langchain
 langchain_groq
-langchain-community
+langchain-community # pin for last stable
+langchain-pymupdf4llm
+langchain-text-splitters
 streamlit
 langgraph
 wikipedia
@@ -8,3 +10,6 @@ arxiv
 pypdf
 pymupdf
 tqdm
+sentence-transformers
+faiss-cpu
+chromadb

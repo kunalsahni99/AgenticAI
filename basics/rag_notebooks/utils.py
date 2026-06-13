@@ -177,8 +177,10 @@ class RAGRetriever:
             )
 
             retrieved_docs = []
+            print(results)
 
             if results['documents'] and results['documents'][0]:
+                print(results['documents'])
                 documents = results['documents'][0]
                 metadatas = results['metadatas'][0]
                 distances = results['distances'][0]
@@ -186,6 +188,7 @@ class RAGRetriever:
 
                 for i, (doc_id, document, metadata, distance) in enumerate(zip(ids, documents, metadatas, distances)):
                     similarity_score = 1 - distance
+                    print(similarity_score)
 
                     if similarity_score >= score_threshold:
                         retrieved_docs.append({

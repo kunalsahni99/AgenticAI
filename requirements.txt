@@ -1,5 +1,6 @@
 langchain
 langchain_groq
+python-dotenv
 langchain-community # pin for last stable
 langchain-pymupdf4llm
 langchain-text-splitters
